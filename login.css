@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    background: rgb(217, 217, 217);  
+    height: 100vh;     
+    overflow: hidden;                                         
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #2C3134;
+    border-radius: 10px;
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: #FF9330;
+    
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+
+    position: relative;
+    border-bottom: 2px solid #ffffff;
+    margin: 30px 0;
+    color: #ffffff;
+}
+
+.txt_field input{
+    width: 100%;
+    padding: 4 4px;
+    height: 30px;
+    font-size: 16px;
+    background: #2C3134;
+    border: none;
+    outline: none;
+}
+
