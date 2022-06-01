@@ -14,7 +14,7 @@
     <div class="container">
     <!-- login form -->
         <div class="login-form">
-            <div class="title">login</div>
+            <div class="title">Faça o login</div>
             <form action="#">
 
                 <div class="input-box">

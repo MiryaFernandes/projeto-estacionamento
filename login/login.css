@@ -65,13 +65,56 @@ body{
     padding: 0 30px;
     font-size: 16px;
     font-weight: 500;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #ffffff;
     transition: all 0.3s ease;
+    background-color: #2C3134;
 
 }
 
-.container .login-form .input-box input:focus,
+ 
 .container .login-form .input-box input:valid{
 
-    background-color: #FFFFFF;
+    background-color: #ACACAC;
+    
+} 
+
+.container .login-form .input-box input[type="submit"]{
+
+    background-color: #ACACAC;
+    border: 0;
+    color:#000000;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.container .login-form .input-box i{
+    position: absolute;
+    color:#ffffff;
+    font-size: 17px;
+}
+
+.container .login-form .forgot a{
+    text-decoration: none;
+    color: #832FC5;
+}
+
+.container .login-form .signup-text a{
+    text-decoration: none;
+    color: #832FC5;
+}
+
+.container .login-img{
+    width: 50%;
+}
+
+@media (max-width:800px){
+    .login-img{
+        display: none;
+    }
+
+}
+
+.signup-text{
+    color: #ffffff;
 }
